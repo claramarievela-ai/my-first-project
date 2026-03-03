@@ -7,7 +7,7 @@ body {
 
 #main-header {
   border-bottom: 5px solid white;
-  letter-spacing: 3 px;
+  letter-spacing: 3px;
 }
 
 h1 {
@@ -46,11 +46,17 @@ main {
 }
 
 aside {
-  background-color: rgb(255, 166, 134);
+  background-color: rgb(244, 244, 178);
   border: 3px solid rgb(20, 41, 200);
   padding: 20px;
   margin: 20px;
   color: rgb(3, 3, 3);
+}
+
+ul {
+  margin: 0;
+  padding-left: 0px;
+  list-style-position: inside;
 }
 
 footer {
