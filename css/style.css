@@ -5,6 +5,11 @@ body {
   padding: 10px;
 }
 
+#main-header {
+  border-bottom: 5px solid white;
+  letter-spacing: 3 px;
+}
+
 h1 {
   font-size: 75px;
   font-weight: 300;
