@@ -9,14 +9,21 @@
     />
   </head>
   <body>
-    <header>
-        <header id="main-header">
+    <header id="main-header" onmouseover="makeYellow()" onmouseout="makeBlue()">
       <h1>Clara Vela</h1>
+      <button onclick="changeColor()">Change my colour</button>
       <p class="highlight-italics">
         Coder with a background as a senior marketing specialist & print media
         journalist.
       </p>
       <p>New York > by way of Canada</p>
+      <button
+        onclick="
+          alert('Hello and welcome to a wonderful experience. Love, Clara!')
+        "
+      >
+        Read Now!
+      </button>
     </header>
 
     <nav>
@@ -25,22 +32,25 @@
       <a href="#">Contact</a>
     </nav>
 
-    <main>
+    <main id="main-content">
       <h2>About Me</h2>
-      <p>Hi! I am Clara, and I am new to coding!</p>
+      <p>Hi! I am Clara, and I'm learning to code!</p>
+      <button onclick="changeText()">Change my text!</button>
     </main>
 
-      <aside>
-        <h3>Fun Fact!</h3>
-        <p>This is my first website; built starting day one of my bootcamp!</p>
-        <ul>
-            <li>Growing & Thriving</li>
-            <li>Creative & Curious</li>
-        </ul>
+    <aside>
+      <button onclick="toggleAside()">Hide/Show Fun Fact!</button>
+      <h3>Fun Fact!</h3>
+      <p>This is my first website; built starting day one of my bootcamp!</p>
+      <ul>
+        <li>Growing & Thriving</li>
+        <li>Creative & Curious</li>
+      </ul>
     </aside>
 
     <footer>
       <h6>Clara & Company 2026</h6>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

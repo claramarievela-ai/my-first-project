@@ -1,8 +1,8 @@
 body {
   font-family: Poppins, serif;
   font-size: 20px;
-  margin: 10px;
-  padding: 10px;
+  margin: 3px;
+  padding: 3px;
 }
 
 #main-header {
@@ -12,7 +12,7 @@ body {
 
 h1 {
   font-size: 75px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 
 .highlight-italics {
   color: rgb(48, 46, 46);
-  font-weight: bold;
+  font-weight: 450;
   font-style: oblique;
 }
 
@@ -46,11 +46,16 @@ main {
 }
 
 aside {
-  background-color: rgb(244, 244, 178);
-  border: 3px solid rgb(20, 41, 200);
-  padding: 20px;
-  margin: 20px;
+  background-color: rgb(244, 244, 199);
+  border: 3px solid rgb(67, 87, 50);
+  padding: 10px;
+  margin: 10px;
   color: rgb(3, 3, 3);
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 ul {
@@ -63,5 +68,6 @@ footer {
   background-color: #2b52df;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 0px;
+  font-size: 15px;
 }
