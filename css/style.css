@@ -7,7 +7,7 @@ body {
 
 #main-header {
   border-bottom: 5px solid white;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 }
 
 h1 {
@@ -21,6 +21,7 @@ header {
   font-weight: 300;
   padding: 50px;
   text-align: center;
+   border-radius: 10px;
 }
 
 .highlight-italics {
@@ -29,29 +30,19 @@ header {
   font-style: oblique;
 }
 
-nav {
-  background-color: #2b52df;
-  padding: 20px;
-  text-align: center;
-}
-
-nav a {
-  margin: 20px;
-  text-decoration: underline;
-  color: rgb(255, 255, 255);
-}
-
 main {
   padding: 20px;
 }
 
 aside {
   background-color: rgb(244, 244, 199);
+  border-radius: 10px;
   border: 3px solid rgb(67, 87, 50);
   padding: 10px;
-  margin: 10px;
+  margin: 5px 8px 20px 8px;
   color: rgb(3, 3, 3);
   font-size: 16px;
+  box-shadow: 3px 4px 5px rgba(45, 14, 220, 0.933);
 }
 
 h3 {
@@ -68,6 +59,115 @@ footer {
   background-color: #2b52df;
   color: white;
   text-align: center;
-  padding: 0px;
+  padding: 3px;
+  margin: 8px 8px 8px 8px;
   font-size: 15px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.658);
+   border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #2b52df;
+  border-radius: 5px;
+  font-family: Poppins, serif;
+}
+
+textarea {
+  height: 100px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #2b52df;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 3px 0px 3px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.658);
+   border-radius: 10px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ff0090;
+}
+
+#contact {
+  background-color: rgb(142, 182, 247);
+  padding: 40px;
+  margin: 20px 8px;
+  border-radius: 10px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.658);
+}
+
+#contact {
+  color: rgb(8, 0, 0)
+  font-size: 35px; 
+  margin-bottom: 10px; 
+}
+
+form {
+  display: flex; 
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  gap: 10px; 
+}
+
+lable {
+  font-weight: 700; 
+  color: rgb(8, 0, 0)
+}
+
+input, textarea {
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+  font-family: Poppins, serif; 
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #2b52df;
+  color: white; 
+  padding: 12px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+button[type="submit"]:hover {
+  background-color: #ff0090;
+
+  #success-message {
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    color: #2b52df; 
 }

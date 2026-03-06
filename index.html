@@ -1,6 +1,8 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
     <title>Clara Vela CV</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -26,10 +28,13 @@
       </button>
     </header>
 
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+    <nav class="navbar">
+      <h1 class="logo">Clara Vela</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <main id="main-content">
@@ -48,9 +53,31 @@
       </ul>
     </aside>
 
+    <section id="contact">
+  <h2>Contact Me</h2>
+  <p>I'd love to hear fom you!</p>
+  <form id="contact-form">
+    <label>Name:</label>
+    <input type="text" placeholder="Enter your name" />
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your email" />
+
+    <label>Message:</label>
+    <textarea placeholder="Write your message here"></textarea>
+
+    <button type="submit">Send Message!</button>
+  </form>
+  <div id="success-message" style="display:none;">
+    <h3>🎉 Thank you for your message!</h3>
+    <p>I'll get back to you as soon as possible!</p>
+    </div>
+    </section>
+
     <footer>
       <h6>Clara & Company 2026</h6>
     </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
+</section>
